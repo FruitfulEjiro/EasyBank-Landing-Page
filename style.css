@@ -2,7 +2,7 @@
 
 :root {
     --Background: #fff;
-    --FooterColor:rgb(45, 49, 77);
+    --FooterColor: rgb(45, 49, 77);
     --Primary: #31d35c;
     --Secondary: #2bb7da;
     --TextColor: rgb(150, 152, 166);
@@ -195,29 +195,41 @@
 }
 
 .article-details {
-    display:flex;
-    flex-direction:column;
-    align-items:flex-start;
-    justify-content:space-between;
-    width:100%;
-    height:auto;
-    gap:0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    gap: 0.5rem;
 }
 
 .author {
-    font-size:0.7rem;
-    color:var(--TextColor);
+    font-size: 0.7rem;
+    color: var(--TextColor);
 }
 
 .article-header {
-    font-size:0.9rem;
+    font-size: 0.9rem;
 }
 
 .article-text {
-    font-size:0.8rem;
-    color:var(--TextColor);
+    font-size: 0.8rem;
+    color: var(--TextColor);
 }
 
 .footer {
-    background:var(--FooterColor);
+    background: var(--FooterColor);
 }
+
+.footer-container {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    align-items: center;
+    justify-items: center;
+    grid-gap:1rem;
+}
+
