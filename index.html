@@ -18,19 +18,25 @@
 
 <body>
 
-    <header class="header d-none container-fluid">
-        <div class="header-container">
-            <img src="./images/logo.svg" alt="" class="easybank-logo">
-            <ul class="nav-menu">
-                <li class="nav-link">Home</li>
-                <li class="nav-link">About</li>
-                <li class="nav-link">Contact</li>
-                <li class="nav-link">Blog</li>
-                <li class="nav-link">Careers</li>
-            </ul>
-            <button type="button" class="header-cta">Request Invite</button>
+    <nav class="header navbar navbar-expand-lg navbar-light container-xxl bg-light fixed-top">
+        <div class="container-lg">
+            <img src="./images/logo.svg" alt="" class="easybank-logo navbar-brand">
+            <button type="button" class="navbar-toggler hamburger-container" data-bs-toggle="collapse"
+                data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav mx-auto p-0 pt-3 pt-lg-0">
+                    <li class="nav-item"><a href="#" class="nav-link fw-bold"> Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link fw-bold"> About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link fw-bold"> Contact</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link fw-bold"> Blog</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link fw-bold"> Careers</a></li>
+                </ul>
+                <button type="button" class="btn header-cta">Request Invite</button>
+            </div>
         </div>
-    </header>
+    </nav>
 
     <main class="main">
 
@@ -139,8 +145,10 @@
     </main>
 
     <footer class="footer container d-flex justify-content-center align-items-center ">
-        <div class=" footer-container row d-flex flex-column align-items-center justify-content-center py-5 py-sm-3 text-light">
-            <div class="footer-logo-container col-12 col-sm-4 col-lg-2 d-flex flex-column align-items-center justify-content-center align-items-sm-start">
+        <div
+            class=" footer-container row d-flex flex-column align-items-center justify-content-center py-5 py-sm-3 text-light">
+            <div
+                class="footer-logo-container col-12 col-sm-4 col-lg-2 d-flex flex-column align-items-center justify-content-center align-items-sm-start">
                 <img src="./images/logo.svg" alt="" class="footer-logo">
             </div>
             <div
@@ -166,17 +174,19 @@
             <div
                 class="button-attribution col-12 col-sm-4 d-flex flex-column align-items-center align-items-sm-space-between justify-content-center justify-content-sm-end">
                 <button type="button" class="footer-button align-self-sm-end">Request Invite</button>
-                <div class="attribution mt-3 d-flex align-content-center justify-content-center justify-content-sm-end w-100">
+                <div
+                    class="attribution mt-3 d-flex align-content-center justify-content-center justify-content-sm-end w-100">
                     <p>&copy <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
                             class="frontend-mentor-link">Frontend Mentor</a>.
                     </p>
-                    <p>Coded by <a href="https://www.linkedin.com/in/frutfl/" target="_blank" class="portfolio-link">Fruitful</a></p>
+                    <p>Coded by <a href="https://www.linkedin.com/in/frutfl/" target="_blank"
+                            class="portfolio-link">Fruitful</a></p>
                 </div>
             </div>
         </div>
     </footer>
 
-    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
