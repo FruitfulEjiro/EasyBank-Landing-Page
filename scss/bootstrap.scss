@@ -1,5 +1,18 @@
 $primary:#31d35c;
 $secondary:#21bde4;
+$dark:#2d314d;
+$light:#f3f4f6;
+$white:#fafafa;
+$navbar-toggler-focus-width:0px;
+
+$container-max-widths: (
+  sm: 560px,
+  md: 750px,
+  lg: 991px,
+  xl: 1190px,
+  xxl: 1350px,
+);
+
 
 @import '../node_modules/bootstrap/scss/bootstrap';
 
