@@ -864,6 +864,7 @@
         background: linear-gradient(to right, var(--Primary), var(--Secondary));
     }
 }
+
 @media (max-width:650px) and (max-height:360px) {
     .container {
         max-width: 100% !important;
@@ -1118,8 +1119,8 @@
         grid-template-columns:repeat(4, 1fr);
         grid-template-rows:repeat(2, auto);
         align-items:center;
-        justify-items: center;
-        padding:0rem 1rem!important;
+        justify-items: space-between;
+        padding:2.5rem 1rem!important;
     }
 
     .choose-easybank {
@@ -1152,12 +1153,17 @@
 
     .subheader {
         font-size: 1.7rem;
+        width:80%;
     }
 
     .service-text {
         color: var(--TextColor);
         font-size: 1rem;
-        text-align: justify;
+        text-align: start;
+    }
+
+    .article-details {
+        padding:0rem 1rem 0rem 1rem!important;
     }
 
     .author {
