@@ -1,4 +1,8 @@
-/** Font */
+/**
+ * Font
+ *
+ * @format
+ */
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
 /** @format */
 * {
@@ -8,6 +12,10 @@
   list-style-type: none;
   text-decoration: none;
   font-family: "Public Sans", sans-serif;
+}
+
+.header {
+  height: 4rem;
 }
 
 .navbar-toggler {
